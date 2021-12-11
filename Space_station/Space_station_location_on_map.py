@@ -4,7 +4,7 @@ import json
 
 #In this project we will map the real time coordinates of the space station
 
-request=requests.get("http://api.open-notify.org/iss-now.json")#Calling the space station api
+request=requests.get("xxxxxxxxxx")#Calling the space station api
 status_code = request.status_code#Too see if our request was success
 reader=request.json()#Convert it to dictionary(pythn object)
 print(reader)
