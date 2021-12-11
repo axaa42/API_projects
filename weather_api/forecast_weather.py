@@ -5,7 +5,7 @@ import pandas as pd
 
 #insert own api key in the link
 #THE FOLLWOING WILL GET THE FORECASTR DATA FOR NEXT 3 DAYS FOR 3 HOUR INTERVALS
-r=requests.get("http://api.openweathermap.org/data/2.5/forecast?q=London,GB&mode=json&appid=xxx")
+r=requests.get("xxxxxxxxxxxx")
 a=r.json()#CONVERT TO JSON
 #print(a)
 for key,value in a.items():#GET ONLY LIST AS THAT IS WHERE OUR DATA IS
